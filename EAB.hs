@@ -9,6 +9,8 @@ data E = Var Nombre|N Int| True | False | VB Bool|If E E E|Suma E E| Prod E E|Lt
 type Sust = (Nombre, E)
 
 ------------------------------------------------------
+-- HOLAAAAAAAAAAA
+-- AHHH
 sustituye :: E -> Sust -> E
 sustituye (N n) _ = (N n)
 sustituye (VB b) _ = (VB b)
