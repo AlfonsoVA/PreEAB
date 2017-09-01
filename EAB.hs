@@ -29,7 +29,7 @@ sustituye (Disy e1 e2) l = (Disy (sustituye e1 l) (sustituye e2 l))
 sustituye (If e1 e2 e3) l = (If (sustituye e1 l) (sustituye e2 l) (sustituye e3 l))
 --sustituye (Let x y z) (n,e) = if (x `elem` ([n]`union` fv y)) then error "Nel" else (Let x y (sustituye z (n,e)))
 
--- RAMA 2
+-- RAMA 2.....
 {-
 	Hola
 	a
