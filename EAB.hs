@@ -27,3 +27,4 @@ sustituye (If e1 e2 e3) l = (If (sustituye e1 l) (sustituye e2 l) (sustituye e3 
 --sustituye (Let x y z) (n,e) = if (x `elem` ([n]`union` fv y)) then error "Error en sustitución" else (Let x y (sustituye z (n,e)))
 
 --HELLO
+--:v
