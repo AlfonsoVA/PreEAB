@@ -7,7 +7,7 @@ data VBool = T | F deriving(Show)
 data E = Var Nombre|N Int| True | False | VB Bool|If E E E|Suma E E| Prod E E|Ltn E E|Eqn E E| Conj E E|Disy E E|Neg E|Iz E| Suc E|Pred E| Let Nombre E E deriving(Show)
 
 type Sust = (Nombre, E)
-
+--HHHHHHHHHHHHHHHHHEY AGAIN
 ------------------------------------------------------
 sustituye :: E -> Sust -> E
 sustituye (N n) _ = (N n)
